@@ -6,14 +6,14 @@ import cors from 'cors';
 import axios from 'axios';
 
 const PORT = 3000;
-const JUDGE0_API_URL = 'https://judge0-ce.p.rapidapi.com';
+const JUDGE0_API_URL = 'https://codecollab-client.onrender.com';
 const RAPIDAPI_KEY = '3a012748demsh0ba621e26d69d0fp15011cjsnd72c5c9f7a89'; 
 
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:5173',
+    origin: 'https://codecollab-client.onrender.com/',
     methods: ['GET', 'POST'],
   },
 });
