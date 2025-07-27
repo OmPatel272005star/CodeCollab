@@ -6,7 +6,7 @@ import cors from 'cors';
 import axios from 'axios';
 
 const PORT = 3000;
-const JUDGE0_API_URL = 'https://codecollab-client.onrender.com';
+const JUDGE0_API_URL = 'https://judge0-ce.p.rapidapi.com';
 const RAPIDAPI_KEY = '3a012748demsh0ba621e26d69d0fp15011cjsnd72c5c9f7a89'; 
 
 const app = express();
