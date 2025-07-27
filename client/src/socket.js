@@ -10,7 +10,7 @@ const initSocket = async () => {
         rememberUpgrade: true
     };
 
-    return io('http://localhost:3000', options);
+    return io('https://codecollab-server-g5gu.onrender.com', options);
 };
 
 export default initSocket;
