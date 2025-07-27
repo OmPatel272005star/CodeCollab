@@ -10,7 +10,7 @@ const initSocket = async () => {
         rememberUpgrade: true
     };
 
-    return io('https://codecollab-server-b6wc.onrender.com', options);
+    return io('https://codecollab-server-rpda.onrender.com', options);
 };
 
 export default initSocket;
